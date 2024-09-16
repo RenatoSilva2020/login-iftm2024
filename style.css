@@ -1,0 +1,49 @@
+#tela {
+    background-image: linear-gradient(135deg, rgba(58, 15, 248, 0.63), rgba(35, 24, 59, 0.63));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+    
+}
+
+#button {
+    background-color: #1E90FF;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    outline: none;
+    
+}
+
+input{
+
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+}
+
+#button:hover {
+    background-color: #210cdf;
+    transform: scale(1.05);
+}
+
+#button:focus {
+    box-shadow: 0 0 0 3px rgba(30, 67, 146, 0.5);
+}
+
+body {
+    background-image: linear-gradient(135deg, rgba(24, 5, 196, 0.514), rgba(121, 26, 209, 0.801),  rgba(238, 11, 162, 0.781));
+}
